@@ -8,8 +8,8 @@
 <body>
     <form action="page2.php" method="POST">
         Borrow No.: <input type="text" name="t1"><br><br>
-        Borrow Name: <input type="text" name="t1"><br><br>
-        Borrow Number: <input type="text" name="t1"><br><br>
+        Borrow Name: <input type="text" name="t2"><br><br>
+        Borrow Number: <input type="text" name="t3"><br><br>
 
         <input type="submit" value="Submit">
     </form>
