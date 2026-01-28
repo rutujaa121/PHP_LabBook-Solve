@@ -8,16 +8,17 @@
 <body>
     <?php 
         session_start();
-        $bno = $_POST['t1'];
-        $bname = $_POST['t2'];
-        $bnum = $_POST['t3'];
+        $no = $_POST["b"];
+        $name = $_POST["m"];
+        $num = $_POST["r"];
 
-        $_SESSION["bno"] = $bno;
-        $_SESSION["bname"] = $bname;
-        $_SESSION["bnum"] = $bnum;
+        $_SESSION["bno"] = $no;
+        $_SESSION["bname"] = $name;
+        $_SESSION["bnum"] = $num;
     ?>
+
     <br><br>
-    <form action="page3.php" method="POST">
+    <form action="b3.php" method="POST">
         EMI NO. : <input type="text" name="t4"><br><br>
         EMI AMOUNT : <input type="text" name="t5"><br><br>
         <input type="submit" value="Submit">

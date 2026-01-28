@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="page2.php" method="POST">
-        Borrow No.: <input type="text" name="t1"><br><br>
-        Borrow Name: <input type="text" name="t2"><br><br>
-        Borrow Number: <input type="text" name="t3"><br><br>
+    <form action="e2.php" method="POST">
+        Enter eno <input type="text" name="eno"><br><br>
+        Enter ename <input type="text" name="ename"><br><br>
+        Enter eaddr <input type="text" name="eaddr"><br><br>
 
         <input type="submit" value="Submit">
     </form>
