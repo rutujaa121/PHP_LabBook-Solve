@@ -8,9 +8,9 @@
 <body>
     <?php 
         session_start();
-        $no = $_POST["b"];
-        $name = $_POST["m"];
-        $num = $_POST["r"];
+        $no = $_POST["b1"];
+        $name = $_POST["b2"];
+        $num = $_POST["b3"];
 
         $_SESSION["bno"] = $no;
         $_SESSION["bname"] = $name;

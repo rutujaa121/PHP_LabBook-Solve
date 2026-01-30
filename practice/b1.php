@@ -7,9 +7,9 @@
 </head>
 <body>
     <form action="b2.php" method="POST">
-        Borrow No.: <input type="text" name="b"><br><br>
-        Borrow Name: <input type="text" name="m"><br><br>
-        Contact Number: <input type="text" name="r"><br><br>
+        Borrow No.: <input type="text" name="b1"><br><br>
+        Borrow Name: <input type="text" name="b2"><br><br>
+        Contact Number: <input type="text" name="b3"><br><br>
 
         <input type="submit" value="Submit">
     </form>
