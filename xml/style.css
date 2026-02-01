@@ -1,0 +1,10 @@
+students{
+    background-color: aliceblue;
+}
+student{
+    background-color: rgb(191, 230, 254);
+    display: block;
+    padding: 30px;
+    margin: 20px;
+    font-size: 25px;
+}

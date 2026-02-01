@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<students>
+    <student>
+        <name>Rutuja</name>
+        <course>BCS</course>
+        <year>3rd Year</year>
+    </student>
+
+    <student>
+        <name>Bhavna</name>
+        <course>BCS</course>
+        <year>3rd Year</year>
+    </student>
+</students>
