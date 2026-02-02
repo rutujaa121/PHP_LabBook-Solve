@@ -1,0 +1,51 @@
+employee{
+    background-color: aliceblue;
+    display: block;
+    /* padding: 20px; */
+    margin: 10px;
+    font-size: 18px;
+}
+details1{
+    background-color: rgb(182, 237, 237);
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+details2{
+    background-color: rgb(254, 200, 191);
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+details3{
+    background-color: rgb(191, 254, 200);
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+details4{
+    background-color: rgb(254, 247, 191);
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+details5{
+    background-color: rgb(221, 191, 254);
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+name{
+    display: block;
+}
+dept{
+    display: block;
+}
+addr{
+    display: block
+}

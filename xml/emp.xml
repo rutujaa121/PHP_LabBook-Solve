@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="emp.css"?>
+
+<employee>
+    <details1>
+        <name> Rutuja </name>
+        <dept> Computer Science </dept>
+        <addr> Shrirampur </addr>
+        <number> 101 </number>
+    </details1>
+    <details2>
+        <name> Bhavna </name>
+        <dept> Computer Science </dept>
+        <addr> Georai </addr>
+        <number> 102 </number>
+    </details2>
+    <details3>
+        <name> Aditi </name>
+        <dept> 12th </dept>
+        <addr> Nevasa </addr>
+        <number> 103 </number>
+    </details3>
+    <details4>
+        <name> Shraddha </name>
+        <dept> MSC </dept>
+        <addr> Pachegaon </addr>
+        <number> 104 </number>
+    </details4>
+    <details5>
+        <name> Priyanka </name>
+        <dept> Computer Science </dept>
+        <addr> Ashoknagar </addr>
+        <number> 105 </number>
+    </details5>
+</employee>
