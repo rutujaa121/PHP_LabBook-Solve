@@ -1,12 +1,8 @@
 <?php
     session_start();
-    $eno = $_POST['eno'];
-    $ename = $_POST['ename'];
-    $eaddr = $_POST['eaddr'];
-
-    $_SESSION['eno'] = $eno;
-    $_SESSION['ename'] = $ename;
-    $_SESSION['eaddr'] = $eaddr;
+    $_SESSION['eno'] = $_POST['eno'];
+    $_SESSION['ename'] = $_POST['ename'];
+    $_SESSION['eaddr']  = $_POST['eaddr'];
 ?>
 
 <!DOCTYPE html>
