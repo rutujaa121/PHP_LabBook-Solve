@@ -4,8 +4,9 @@
     $color = $_COOKIE['f3'];
     $bgcolor = $_COOKIE['f4'];
 
-    echo "<body bgcolor='$bgcolor'>";
-    echo "<p style = '$style'>Hello World!</p>";
-    echo "<font style='$size'> Hello World!</font><br>";
-    echo "color:$color This is a sample text with the specified styles.</font></p>";
+    echo "<body bgcolor=$bgcolor>";
+    echo "<font style = $style> Hello World!";
+    echo "<font size=$size> Hello World!";
+    echo "<font color=$color> Hello World!";
+    echo "</font></body>";
 ?>
