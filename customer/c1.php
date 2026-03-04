@@ -8,7 +8,7 @@
 <body>
     <form action="c2.php" method="POST">
         Enter Name <input type="text" name="name"><br><br>
-        Enter Address <input type="text" name="address"><br><br>
+        Enter Address <input type="text" name="addr"><br><br>
         Enter Number <input type="text" name="phone"><br><br>
         <input type="submit" value="Submit">
     </form>

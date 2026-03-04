@@ -1,7 +1,7 @@
 <?php
     session_start();
-    $cname = $_SESSION['cname'];
-    $caddr = $_SESSION['address'];
+    $cname = $_SESSION['name'];
+    $caddr = $_SESSION['addr'];
     $cmob = $_SESSION['phone'];
 
     $pname = $_POST['p1'];
@@ -24,5 +24,5 @@
     echo "Quantity : $qty <br>";
     echo "Rate : $rate <br>";
     echo "Amount : $amt <br>";
-    
+
 ?>
