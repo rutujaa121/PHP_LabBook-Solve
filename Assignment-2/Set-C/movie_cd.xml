@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="./movie_cd.css"?>
+<movie>
+    <category name="horror">
+        <movie_title>Bhootnath</movie_title>
+        <actor_name>Amitabh Bachchan</actor_name>
+        <realese_year>2005</realese_year>
+    </category>
+    <category name="classical">
+        <movie_title>Sholay</movie_title>
+        <actor_name>Amitabh Bachchan</actor_name>
+        <realese_year>1975</realese_year>
+    </category>
+    <category name="action">
+        <movie_title>Dhoom</movie_title>
+        <actor_name>Abhishek Bachchan</actor_name>
+        <realese_year>2004</realese_year>
+    </category>
+</movie>
