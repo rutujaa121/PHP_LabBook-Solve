@@ -6,13 +6,27 @@
     <title>Document</title>
     <script src="./../../jquery-4.0.0.js"></script>
     <script>
-        $(document).ready(function()
-        {
-            $("p").append('<br> Hello...');
-        });
+        var a = confirm("Exams are near, have you started preparing for ?");
+        if(a==true)
+            {
+                var n = window.prompt("Enter your name ");
+                if(n!=null)
+                {
+                    alert("Best Of Luck "+n);
+                }
+                else
+                {
+                    alert("Best Of Luck ");
+                }
+            } 
+            else
+            {
+                alert("Prepared for it.....");
+            }
     </script>
 </head>
 <body>
-    <p>This is paragraph </p>
+    
 </body>
 </html>
+
