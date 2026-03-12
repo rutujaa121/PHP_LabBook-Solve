@@ -8,10 +8,10 @@
 </head>
 
 <body>
-    <form action="#" method="POST">
+    <form onsubmit="return validate()">
         <input type="text" placeholder="Username" id="t1"><br><br>
-        <input type="password" placeholder="Password" id="t2"><br><br>
-        <input type="submit" value="Submit" onclick="validate()">
+        <input type="text" placeholder="Password" id="t2"><br><br>
+        <input type="submit" value="Submit">
 
     </form>
 </body>
@@ -24,15 +24,20 @@
         let username = document.getElementById("t1").value;
         let password = document.getElementById("t2").value;
 
-        let userreg = "[A-Z][a-z][4]$";
-        let passreg = "^[?=.*A-Z][a-z 0-9]{4,8}$";
+        let userreg = /^[a-zA-Z0-9]{4,}$/;
+        let passreg = /^[a-z0-9]{6}$/;
 
-        if (username.match(userreg) && password.match(passreg)) {
-            window.alert("login Successfully");
-        }
-        else
+        if(!userreg.test(username))
         {
-            window.alert("Invalid username or Password");
+            window.alert("Invalid username");
+            return false;
         }
+        if(!passreg.test(password))
+        {
+            window.alert("Invalid password");
+            return false;
+        }
+        window.alert("Login successful");
+        return true;
     }
 </script>
